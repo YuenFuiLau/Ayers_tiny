@@ -61,7 +61,7 @@ class XBotLCfg(LeggedRobotCfg):
         foot_name = "ankle"
         knee_name = "knee"
 
-        terminate_after_contacts_on = ['base_link', 'left_hip_pitch_link', 'right_hip_pitch_link']
+        terminate_after_contacts_on = ['base_link', 'left_hip_pitch_link', 'right_hip_pitch_link', 'left_knee_link', 'right_knee_link']
         penalize_contacts_on = ["base_link"]
         self_collisions = 0  # 1 to disable, 0 to enable...bitwise filter
         flip_visual_attachments = False
