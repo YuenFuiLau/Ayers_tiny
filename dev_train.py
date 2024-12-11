@@ -42,6 +42,6 @@ if __name__ == '__main__':
     args = get_args()
     args.task = "humanoid_ppo"
     args.run_name = "v1"
-    args.num_envs = 16
+    args.num_envs = 4096
     args.headless = False
     train(args)
